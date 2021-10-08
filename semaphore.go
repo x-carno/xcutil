@@ -1,4 +1,4 @@
-package srutil
+package xcutil
 
 type Semaphore chan struct{}
 

@@ -1,4 +1,4 @@
-package srutil
+package xcutil
 
 import (
 	"reflect"

@@ -1,4 +1,4 @@
-package srutil
+package xcutil
 
 // Set : a set of unique strings
 type Set struct {
