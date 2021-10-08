@@ -1,2 +1,1 @@
-# srutil
 some common utils
