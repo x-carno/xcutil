@@ -21,7 +21,7 @@ func ContainsString(array []string, val string) int {
 	return -1
 }
 
-// convert string to byte array without alloc
+// convert string to byte array without memory alloc
 func Str2Bytes(s string) (b []byte) {
 	h1 := (*reflect.StringHeader)(unsafe.Pointer(&s))
 	h2 := (*reflect.SliceHeader)(unsafe.Pointer(&b))
@@ -31,7 +31,7 @@ func Str2Bytes(s string) (b []byte) {
 	return
 }
 
-// convert byte array to string without alloc
+// convert byte array to string without memory alloc
 func Bytes2Str(b []byte) string {
 	return *(*string)(unsafe.Pointer(&b))
 }
